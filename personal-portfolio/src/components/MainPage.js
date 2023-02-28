@@ -6,7 +6,7 @@ import headerImg from "../assets/img/laptop-wave.png";
 export const MainPage = () => {
     
     return (
-        <section className="main" id="home">
+        <section className="mainpage" id="home">
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
