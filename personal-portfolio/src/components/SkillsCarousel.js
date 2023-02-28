@@ -1,7 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import javascript from "../assets/img/jsIcon.png";
+import javascriptIcon from "../assets/img/jsIcon.png";
+import reactIcon from "../assets/img/reactIcon.png";
+import bootstrapIcon from "../assets/img/bootstrapIcon.png";
+import css3Icon from "../assets/img/cssIcon.png";
+import sqlIcon from "../assets/img/mySQLIcon.png";
+import nodeJsIcon from "../assets/img/nodeJsIcon.png";
+import mongoDbIcon from "../assets/img/mongoDbIcon.png";
+import pwaIcon from "../assets/img/pwaIcon.png";
+import restIcon from "../assets/img/restApiIcon.png";
 
 export const SkillsCarousel = () => {
     const responsive = {
@@ -35,39 +43,39 @@ export const SkillsCarousel = () => {
                             <p></p>
                             <Carousel responsive={responsive} infinite={true} className="skillslider">
                                 <div className="item">
-                                    <img src={javascript} alt="JavaScript" />
+                                    <img src={javascriptIcon} alt="JavaScript" />
                                     <h4>JavaScript</h4>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="React" />
+                                    <img src={reactIcon} alt="React" />
                                     <h4>React</h4>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="Bootstrap" />
+                                    <img src={bootstrapIcon} alt="Bootstrap" />
                                     <h4>Bootstrap</h4>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="CSS3" />
+                                    <img src={css3Icon } alt="CSS3" />
                                     <h4>CSS3</h4>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="Sql" />
+                                    <img src={sqlIcon} alt="Sql" />
                                     <h4>Sql</h4>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="NodeJs" />
+                                    <img src={nodeJsIcon} alt="NodeJs" />
                                     <h4>NodeJs</h4>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="MongoDb" />
+                                    <img src={mongoDbIcon} alt="MongoDb" />
                                     <h4>MongoDb</h4>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="Progressive Web App" />
+                                    <img src={pwaIcon} alt="Progressive Web App" />
                                     <h4>Progressive Web App</h4>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="Rest Api" />
+                                    <img src={restIcon} alt="Rest Api" />
                                     <h4>Rest Api</h4>
                                 </div>
                             </Carousel>

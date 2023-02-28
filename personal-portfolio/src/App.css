@@ -113,6 +113,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 nav.navbar {
+  background: linear-gradient(90.21deg, rgba(248, 98, 4, 0.88) -5.91%, rgba(8, 0, 0, 0.5) 111.58%);
   padding: 18px 0;
   position: fixed;
   width: 100%;
@@ -187,4 +188,40 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 }
 .mainpage button:hover svg {
   margin-left: 25px;
+}
+
+/* skills Carousel */
+
+.skills {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+.skillsbox {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.skills h2 {
+	font-size: 45px;
+	font-weight: 700;
+  padding-top: 20px;
+}
+.skills p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.skillsslider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skillslider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
 }
