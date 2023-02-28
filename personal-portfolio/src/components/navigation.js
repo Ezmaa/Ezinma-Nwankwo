@@ -1,8 +1,10 @@
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useEffect, useState } from 'react';
 import githubIcon from '../assets/img/githubIcon.png';
+import linkedinIcon from '../assets/img/linkedinIcon.png';
 import { HashLink } from 'react-router-hash-link';
 import {
     BrowserRouter as Router
@@ -34,12 +36,10 @@ export const Navigation = () => {
     <Router>
     <Navbar fixed="top" bg="success" expand="lg" className={scrolled ? "scrolled": ""}>
       <Container fluid>
-        <Navbar.Brand href="#">Ezinma Nwankwo
-            {/* <img src={''} alt="Logo" /> */}
-        </Navbar.Brand>
+        <Navbar.Brand>Ezinma Nwankwo</Navbar.Brand>
         <div className="social-icon" >
         <a href="https://github.com/Ezmaa"><img src={githubIcon} alt="" /></a>
-        <a href="https://github.com/Ezmaa"><img src={githubIcon} alt="" /></a>
+        <a href="https://www.linkedin.com/in/ezinma-nwankwo-3b7905234"><img src={linkedinIcon} alt="" /></a>
         </div>
 
         <Navbar.Toggle aria-controls="navbarScroll" />
