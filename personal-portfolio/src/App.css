@@ -1,8 +1,8 @@
 /* custom fonts */
-/* @font-face {
-  font-family: ;
-  src: url();
-} */
+@font-face {
+  font-family: Mangabey;
+  src: url('./assets/fonts/MangabeyRegular-rgqVO.otf');
+}
 
 * {
   margin: 0;
@@ -110,5 +110,30 @@ input:focus, textarea:focus, select:focus {
   align-items: center;
   justify-content: center;
   line-height: 1;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 40px;
+  font-family: 'Mangabey', sans-serif !important;
+  font-weight: 400;
+  font-size: 30px !important;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
 }
