@@ -34,7 +34,7 @@ export const Navigation = () => {
 
   return (
     <Router>
-    <Navbar fixed="top" bg="success" expand="lg" className={scrolled ? "scrolled": ""}>
+    <Navbar fixed="top" expand="lg" className={scrolled ? "scrolled": ""}>
       <Container fluid>
         <Navbar.Brand>Ezinma Nwankwo</Navbar.Brand>
         <div className="social-icon" >
