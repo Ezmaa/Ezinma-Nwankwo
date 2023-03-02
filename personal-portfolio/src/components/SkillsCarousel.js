@@ -40,7 +40,6 @@ export const SkillsCarousel = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p></p>
                             <Carousel responsive={responsive} infinite={true} className="skillslider">
                                 <div className="item">
                                     <img src={javascriptIcon} alt="JavaScript" />
