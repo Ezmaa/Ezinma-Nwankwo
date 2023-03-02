@@ -59,7 +59,7 @@ export const Projects = () => {
                             )
                           })
                         }
-                      </Row>
+               </Row>
                 </Col>
             </Row>
             </Container>

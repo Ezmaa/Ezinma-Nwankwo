@@ -199,3 +199,26 @@ span.navbar-text {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+
+/* Projects Section */
+
+.project {
+  padding: 80px 0;
+  position: relative;
+  background-color: black;
+}
+.project h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.project p {
+  color: #050505;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  margin: 14px auto 30px auto;
+}
+
+
+
+
