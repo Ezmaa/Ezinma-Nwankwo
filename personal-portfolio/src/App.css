@@ -201,12 +201,17 @@ span.navbar-text {
 }
 
 /* Projects Section */
+/* To-do: 
+Padding for header
+margin bottom on cards
+add image under projects  */
 
 .project {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
