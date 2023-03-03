@@ -4,6 +4,7 @@ import { Navigation } from './components/Navigation';
 import { MainPage } from './components/MainPage';
 import { SkillsCarousel } from './components/SkillsCarousel';
 import { Projects } from './components/Projects';
+import { Contact } from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
      <MainPage />
      <SkillsCarousel />
      <Projects />
+     <Contact />
     </div>
   );
 }
