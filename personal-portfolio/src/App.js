@@ -4,7 +4,7 @@ import { Navigation } from './components/Navigation';
 import { MainPage } from './components/MainPage';
 import { SkillsCarousel } from './components/SkillsCarousel';
 import { Projects } from './components/Projects';
-import { Contact } from './components/Contact';
+// import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,7 +15,7 @@ function App() {
      <MainPage />
      <SkillsCarousel />
      <Projects />
-     <Contact />
+     {/* <Contact /> */}
      <Footer />
     </div>
   );

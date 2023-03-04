@@ -8,42 +8,48 @@ export const Projects = () => {
             title: "Drink Outside The Box",
             description: "An app that generates a random drink and a joke",
             developement: "JavaScript, CSS, Bulma",
-            imgUrl: proj1, 
+            imgUrl: proj1,
+            projectUrl: "https://github.com/Ezmaa"
         },
         {
             title: "Drink Outside The Box",
             description: "An app that generates a random drink and a joke",
             developement: "JavaScript, CSS, Bulma",
             imgUrl: proj1, 
+            projectUrl: "https://github.com/Ezmaa"
         },
         {
             title: "Drink Outside The Box",
             description: "An app that generates a random drink and a joke",
             developement: "JavaScript, CSS, Bulma",
             imgUrl: proj1, 
+            projectUrl: "https://github.com/Ezmaa"
         },
         {
             title: "Drink Outside The Box",
             description: "An app that generates a random drink and a joke",
             developement: "JavaScript, CSS, Bulma",
             imgUrl: proj1, 
+            projectUrl: "https://github.com/Ezmaa"
         },
         {
             title: "Drink Outside The Box",
             description: "An app that generates a random drink and a joke",
             developement: "JavaScript, CSS, Bulma",
             imgUrl: proj1, 
+            projectUrl: "https://github.com/Ezmaa"
         },
         {
             title: "Drink Outside The Box",
             description: "An app that generates a random drink and a joke",
             developement: "JavaScript, CSS, Bulma",
             imgUrl: proj1, 
+            projectUrl: "https://github.com/Ezmaa"
         },
        
     ]
     return (
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
             <Row>
                 <Col size={12}>

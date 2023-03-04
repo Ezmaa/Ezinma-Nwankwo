@@ -32,7 +32,7 @@ export const SkillsCarousel = () => {
         }
     };
     return (
-        <section className="skills" id="skill">
+        <section className="skills" id="skills">
             <Container>
                 <Row>
                     <Col>
