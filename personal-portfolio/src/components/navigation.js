@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useEffect, useState } from 'react';
 import githubIcon from '../assets/img/github-icon.png';
 import linkedinIcon from '../assets/img/linked-in-icon.png';
-
 import {
     BrowserRouter as Router
   } from "react-router-dom";
@@ -41,8 +40,8 @@ export const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => highlightActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => highlightActiveLink('home')}>Skills</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => highlightActiveLink('home')}>Projects</Nav.Link>
+            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => highlightActiveLink('skills')}>Skills</Nav.Link>
+            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => highlightActiveLink('projects')}>Projects</Nav.Link>
           </Nav>
           <span className="navbar-text">
           <div className="social-icon" >
