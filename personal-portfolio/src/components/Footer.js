@@ -6,13 +6,19 @@ export const Footer = () => {
     return (
         <footer className="footer">
       <Container>
-        <Row className="align-items-center">
-          <Col size={8} sm={6} className="text-center text-sm-end">
+        <Row>
+          <Col>
             <div className="social-icon">
+                <div>
               <a href="https://github.com/Ezmaa"><img src={githubIcon} alt="Icon" /></a>
+              </div>
+              <div>
               <a href="https://www.linkedin.com/in/ezinma-nwankwo-3b7905234"><img src={linkedinIcon} alt="Icon" /></a>
+              </div>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+          </Col>
+          <Col>
+          <p>Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

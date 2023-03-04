@@ -297,4 +297,19 @@ add image under projects  */
   width: 100%;
 }
 
+/* Footer */
+
+.footer a {
+ display: flex;
+ justify-content: right;
+ margin-top: 10px;
+} 
+
+ .footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+} 
 
