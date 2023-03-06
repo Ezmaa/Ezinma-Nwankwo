@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import proj1 from "../assets/img/proj1.png";
+import proj3 from "../assets/img/proj3.png";
 import proj4 from "../assets/img/work-day-scheduler.png";
 import proj5 from "../assets/img/passwordgenerator.png";
 import proj6 from "../assets/img/notetaker.png";
@@ -24,12 +25,12 @@ export const Projects = () => {
             deployedUrl: "https://ezmaa.github.io/Work-Day-Scheduler/"
         },
         {
-            title: "Drink Outside The Box",
-            description: "An app that generates a random drink and a joke",
-            developement: "JavaScript, CSS, Bulma",
-            imgUrl: proj1, 
-            projectUrl: "https://github.com/Ezmaa",
-            deployedUrl: "https://ezmaa.github.io/Work-Day-Scheduler/"
+            title: "Weather Dashboard",
+            description: "A weahter dashboard that collects information from the openweather api",
+            developement: "JavaScript, CSS, HTML",
+            imgUrl: proj3, 
+            projectUrl: "https://github.com/Ezmaa/Weather-Dashboard",
+            deployedUrl: "https://ezmaa.github.io/Weather-Dashboard/"
         },
         {
             title: "Work Day Scheduler",
