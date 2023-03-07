@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aeb8dce9.css",
+    "main.js": "/static/js/main.e1f0867b.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/hardware.jpg": "/static/media/hardware.bd250861b0eda4889855.jpg",
+    "static/media/spacesuit.png": "/static/media/spacesuit.e1556e139b411d776bb2.png",
+    "static/media/proj1.png": "/static/media/proj1.1a5a04ac6727d8fb8ddd.png",
+    "static/media/mySQLIcon.png": "/static/media/mySQLIcon.23907cc1ec2ba5eef34b.png",
+    "static/media/laptop-wave.png": "/static/media/laptop-wave.f8b920fed5e65bf7f32a.png",
+    "static/media/linked-in-icon.png": "/static/media/linked-in-icon.b1bebb391a157454d569.png",
+    "static/media/passwordgenerator.png": "/static/media/passwordgenerator.afd13f471d3ad8e93ff6.png",
+    "static/media/notetaker.png": "/static/media/notetaker.6b8980d28b4ec69ef443.png",
+    "static/media/nodeJsIcon.png": "/static/media/nodeJsIcon.f3c9243782baf8fb0113.png",
+    "static/media/proj3.png": "/static/media/proj3.b7e6433df09dc93b9e00.png",
+    "static/media/work-day-scheduler.png": "/static/media/work-day-scheduler.a1892dafbfafcbc0cc18.png",
+    "static/media/bootstrapIcon.png": "/static/media/bootstrapIcon.31308e1f971117056887.png",
+    "static/media/reactIcon.png": "/static/media/reactIcon.80045de70681e3171446.png",
+    "static/media/jsIcon.png": "/static/media/jsIcon.5f2b9169c48263cf4760.png",
+    "static/media/mongoDbIcon.png": "/static/media/mongoDbIcon.c4f5305dc93a1715c0c8.png",
+    "static/media/MangabeyRegular-rgqVO.otf": "/static/media/MangabeyRegular-rgqVO.4ad456bc4957febdf9a5.otf",
+    "static/media/restApiIcon.png": "/static/media/restApiIcon.3a2fea32a0b768d6b10b.png",
+    "static/media/cssIcon.png": "/static/media/cssIcon.c5583d093ec16d030195.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/pwaIcon.png": "/static/media/pwaIcon.877123a9f67cb81df2fd.png",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.aeb8dce9.css.map": "/static/css/main.aeb8dce9.css.map",
+    "main.e1f0867b.js.map": "/static/js/main.e1f0867b.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aeb8dce9.css",
+    "static/js/main.e1f0867b.js"
+  ]
+}
