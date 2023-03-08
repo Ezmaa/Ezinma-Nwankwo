@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Ezinma-Nwankwo/static/css/main.10050da7.css",
-    "main.js": "/Ezinma-Nwankwo/static/js/main.9da6f270.js",
+    "main.css": "/Ezinma-Nwankwo/static/css/main.295b59f1.css",
+    "main.js": "/Ezinma-Nwankwo/static/js/main.e14e1b00.js",
     "static/js/787.fb771931.chunk.js": "/Ezinma-Nwankwo/static/js/787.fb771931.chunk.js",
     "static/media/hardware.jpg": "/Ezinma-Nwankwo/static/media/hardware.bd250861b0eda4889855.jpg",
+    "static/media/contact.png": "/Ezinma-Nwankwo/static/media/contact.a5c3106366904d2b045c.png",
     "static/media/spacesuit.png": "/Ezinma-Nwankwo/static/media/spacesuit.e1556e139b411d776bb2.png",
     "static/media/proj1.png": "/Ezinma-Nwankwo/static/media/proj1.1a5a04ac6727d8fb8ddd.png",
     "static/media/mySQLIcon.png": "/Ezinma-Nwankwo/static/media/mySQLIcon.23907cc1ec2ba5eef34b.png",
@@ -26,12 +27,12 @@
     "static/media/pwaIcon.png": "/Ezinma-Nwankwo/static/media/pwaIcon.877123a9f67cb81df2fd.png",
     "static/media/revicons.woff": "/Ezinma-Nwankwo/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Ezinma-Nwankwo/index.html",
-    "main.10050da7.css.map": "/Ezinma-Nwankwo/static/css/main.10050da7.css.map",
-    "main.9da6f270.js.map": "/Ezinma-Nwankwo/static/js/main.9da6f270.js.map",
+    "main.295b59f1.css.map": "/Ezinma-Nwankwo/static/css/main.295b59f1.css.map",
+    "main.e14e1b00.js.map": "/Ezinma-Nwankwo/static/js/main.e14e1b00.js.map",
     "787.fb771931.chunk.js.map": "/Ezinma-Nwankwo/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10050da7.css",
-    "static/js/main.9da6f270.js"
+    "static/css/main.295b59f1.css",
+    "static/js/main.e14e1b00.js"
   ]
 }
