@@ -255,7 +255,7 @@ add image under projects  */
 
 /* Contact Form */
 
-/* .contact {
+.contact {
   background: linear-gradient(90.21deg, rgba(248, 98, 4, 0.88) -5.91%, rgba(8, 0, 0, 0.5) 111.58%);
   padding: 60px 0 200px 0;
 }
@@ -324,7 +324,7 @@ add image under projects  */
 }
 .contact form button:hover::before {
   width: 100%;
-} */
+}
 
 /* Footer */
 
