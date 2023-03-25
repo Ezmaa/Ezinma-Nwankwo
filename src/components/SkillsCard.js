@@ -3,9 +3,9 @@ import { Col } from "react-bootstrap";
 export const SkillsCard = ({ title, imgUrl }) => {
     return (
       <Col size={12} sm={6} md={4}>
-      <div className="proj-imgbx">
+      <div className="skill-imgbx">
         <img src={imgUrl} alt="" />
-        <div className="proj-txtx">
+        <div className="skill-text">
           <h4>{title}</h4>
         </div>
       </div>

@@ -5,9 +5,9 @@ export const ProjectCard = ({ title, description, imgUrl, projectUrl, deployedUr
       <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
         <img src={imgUrl} alt="" />
-        <div className="proj-txtx">
+        <div className="proj-text">
           <h4>{title}</h4>
-          <span>{description}</span>
+          <div>{description}</div>
           <a href={projectUrl}><Button variant="secondary">Github</Button></a> 
           <a href={deployedUrl}><Button variant="secondary">Deployed</Button></a> 
         </div>
