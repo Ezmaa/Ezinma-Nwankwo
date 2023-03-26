@@ -3,6 +3,7 @@ import { Envelope } from "react-bootstrap-icons";
 import headerImg from "../assets/img/laptop-wave.png";
 
 
+
 export const MainPage = () => {
     
     return (
@@ -13,7 +14,7 @@ export const MainPage = () => {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>Relentlessly Solving Problems</h1>
                         <p>I am a driven software developer able to communicate proficiently and professionally in a team setting.  I can adapt and prioritize workflow, which allows me to work well with my team. “Great teamwork is the only way we create the breakthroughs that define our careers.”</p>
-                        <button onClick={() => console.log('working')}>Let's Connect<Envelope size={25} /></button>
+                        <a href="#connect"> <button>Let's Connect<Envelope size={25} /></button> </a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Waving Laptop" />
