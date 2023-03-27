@@ -66,7 +66,7 @@ input:focus, textarea:focus, select:focus {
 /* Navbar */
 .social-icon {
   display: inline-block;
-  margin-left: 420px;
+  margin-left: 20px;
 }
 
 .social-icon a {
@@ -118,6 +118,14 @@ span.navbar-text {
   display: flex;
   align-items: center;
 }
+
+nav.navbar .navbar-toggler-icon {
+  width: 24px;
+  height: 17px;
+  position: relative;
+  transition: all 300ms linear;
+  
+} 
 
 /* main page */
 .mainpage {
@@ -232,6 +240,7 @@ span.navbar-text {
 .proj-imgbx img {
   margin-bottom: 10px;
   height: 220px;  
+  border-radius: 2%;
 }
 
 .background-image-right {
