@@ -36,7 +36,7 @@ export const Navigation = () => {
       <Container fluid>
         <Navbar.Brand>Ezinma Nwankwo</Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className="custom-toggle" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => highlightActiveLink('home')}>Home</Nav.Link>
